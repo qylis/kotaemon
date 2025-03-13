@@ -12,7 +12,7 @@ if not KH_DEMO_MODE:
     )
 else:
     PLACEHOLDER_TEXT = (
-        "Welcome to Qbot Demo. "
+        "Welcome to Amigo Demo. "
         "Start by browsing preloaded conversations to get onboard.\n"
         "Check out Hint section for more tips."
     )
