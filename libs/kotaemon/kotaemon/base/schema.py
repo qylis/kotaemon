@@ -15,7 +15,7 @@ if TYPE_CHECKING:
     )
 
 IO_Type = TypeVar("IO_Type", "Document", str)
-SAMPLE_TEXT = "A sample Document from kotaemon"
+SAMPLE_TEXT = "A sample Document from Qbot"
 
 
 class Document(BaseDocument):

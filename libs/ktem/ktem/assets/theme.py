@@ -183,7 +183,7 @@ class Kotaemon(Soft):
             font=font,
             font_mono=font_mono,
         )
-        self.name = "kotaemon"
+        self.name = "Qbot"
         super().set(
             **common,
             **dark_mode,
