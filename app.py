@@ -23,4 +23,7 @@ demo.queue().launch(
         GRADIO_TEMP_DIR,
     ],
     share=KH_GRADIO_SHARE,
+    ssl_keyfile="./certs/privkey.pem",
+    ssl_certfile="./certs/cert.pem",
+    ssl_verify=False,
 )
